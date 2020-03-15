@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levoča Pocasie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel='icon' href='https://cdn1.iconfinder.com/data/icons/weather-429/64/weather_icons_color-06-512.png'>
+</head>
+<body>
+    <div class="placeholder"></div>
+    <div class='whole'>
+        <div class="name-icon">
+                <h2 id='title'>Levoča</h2>
+                <h1 id='temp'></h1>
+                <div class="imgholder"></div>
+            </div>
+        <div class='row'>
+            <p id='weatherStatus'></p>
+        </div>
+        <div class="status">
+
+        </div>
+        <div class='additional-info'>
+            <div class='row-item'>
+                <p id='feelTemp'></p>
+            </div>
+            <div class='row-item'>
+                <p id='maxTemp'></p>
+            </div>
+            <div class='row-item'>
+                <p id='pressure'></p>
+            </div>
+            <div class='row-item'>
+                <p id='humidity'></p>
+            </div>
+            <div class='row-item'>
+                <p id='wind'></p>
+            </div>
+            <div class="row-item">
+                <p class='last-update'></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class='placesaver'></div>
+    <footer class='footer'>
+        This project was created by <a href='http://www.michalgally.maweb.eu'>MFoxx</a> in 100 Days of Code challenge, API provided by <a href='https://openweathermap.org/api'>OpenWeather</a>.
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
