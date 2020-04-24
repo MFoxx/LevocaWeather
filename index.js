@@ -1,6 +1,6 @@
 // Endpoint
 const endpoint =
-    'http://api.openweathermap.org/data/2.5/weather?q=Levoca&appid=e8fc4741e6b8855cf1da758b4308c5df';
+    'https://api.openweathermap.org/data/2.5/weather?q=Levoca&appid=e8fc4741e6b8855cf1da758b4308c5df';
 
 // Setting variables for all data
 [ temp, feelTemp, maxTemp, pressure, humidity, wind, weatherId ] = [ 0 ];
